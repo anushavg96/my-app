@@ -87,7 +87,7 @@ function EmployeeForm() {
             <Form onSubmit={handleSubmit}>
             <Grid container>
                 <Grid item xs={6}>
-                    <Input name="fullName"  label="Full Name"  value={values.fullName} onChange={handleInputChange} error={errors.fullName}/>
+                    <Input name="fullName"  label="Name"  value={values.fullName} onChange={handleInputChange} error={errors.fullName}/>
 
                     <Input variant="outlined" label="Email"  name="email" value={values.email} onChange={handleInputChange}  error={errors.email}/>
                     <Input

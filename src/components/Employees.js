@@ -14,7 +14,7 @@ function Employees() {
     const classes = useStyles();
     return (
         <>
-        <PageHeader  title="Employee" subTitle="Form design with validation" icon={<PeopleOutlineIcon  fontSize="large"/>}/>
+        <PageHeader  title="New Employee" subTitle="Form design with validation" icon={<PeopleOutlineIcon  fontSize="large"/>}/>
         <Paper className={classes.pageContent}>
         <EmployeeForm />
         </Paper>
